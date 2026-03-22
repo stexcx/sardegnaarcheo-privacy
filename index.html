@@ -1,9 +1,230 @@
 <!DOCTYPE html>
 <html lang="it">
-<head><meta charset="UTF-8"><title>Privacy Policy — Sardegna Archeologica</title></head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Sardegna Archeologica</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: #f9f7f4;
+      color: #1a1a1a;
+      line-height: 1.75;
+      padding: 0 16px 60px;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    header {
+      border-bottom: 2px solid #d4a017;
+      padding-bottom: 24px;
+      margin-bottom: 36px;
+    }
+    .app-name {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #d4a017;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #0d0f0d;
+    }
+    .meta {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0d0f0d;
+      margin: 36px 0 12px;
+    }
+    p {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 14px;
+    }
+    ul {
+      margin: 0 0 14px 20px;
+    }
+    li {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 6px;
+    }
+    .highlight {
+      background: #fffbea;
+      border-left: 4px solid #d4a017;
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+    }
+    .highlight p {
+      margin: 0;
+      font-size: 14px;
+      color: #555;
+    }
+    a {
+      color: #d4a017;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #ddd;
+      font-size: 13px;
+      color: #999;
+      text-align: center;
+    }
+  </style>
+</head>
 <body>
-<h1>Privacy Policy</h1>
-<p>Aggiornata: 22 marzo 2026</p>
-<p>Sardegna Archeologica non raccoglie né trasmette dati personali.</p>
+  <div class="wrap">
+
+    <header>
+      <div class="app-name">Sardegna Archeologica</div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Ultimo aggiornamento: 22 marzo 2026</p>
+    </header>
+
+    <div class="highlight">
+      <p>Questa app <strong>non raccoglie, non memorizza e non trasmette alcun dato personale</strong> a server esterni. Tutti i dati funzionano localmente sul dispositivo dell'utente.</p>
+    </div>
+
+    <h2>1. Informazioni generali</h2>
+    <p>
+      Sardegna Archeologica è un'applicazione mobile gratuita che fornisce una mappa interattiva
+      dei siti preistorici e nuragici della Sardegna. L'app è disponibile su Google Play Store
+      ed è sviluppata a scopo culturale ed educativo.
+    </p>
+    <p>
+      Questa Privacy Policy descrive come l'applicazione gestisce le informazioni degli utenti,
+      in conformità con il Regolamento Generale sulla Protezione dei Dati (GDPR - Regolamento UE 2016/679)
+      e le norme applicabili del Google Play Store.
+    </p>
+
+    <h2>2. Dati raccolti</h2>
+    <p>L'applicazione <strong>non raccoglie</strong> dati personali degli utenti. In particolare:</p>
+    <ul>
+      <li>Non vengono richiesti account o registrazioni</li>
+      <li>Non vengono raccolti nome, email, numero di telefono o altri dati identificativi</li>
+      <li>Non vengono tracciati comportamenti o abitudini di utilizzo</li>
+      <li>Non vengono inviate analytics a server di terze parti</li>
+      <li>Non vengono utilizzati cookie o tecnologie di tracciamento</li>
+    </ul>
+
+    <h2>3. Dati di posizione (GPS)</h2>
+    <p>
+      L'app può richiedere l'accesso alla posizione geografica del dispositivo per mostrare
+      la posizione dell'utente sulla mappa e facilitare la navigazione verso i siti archeologici.
+    </p>
+    <ul>
+      <li>L'accesso alla posizione è <strong>completamente opzionale</strong></li>
+      <li>La posizione viene utilizzata <strong>esclusivamente in tempo reale</strong> e visualizzata sulla mappa</li>
+      <li>La posizione <strong>non viene mai memorizzata</strong> sul dispositivo né trasmessa a server esterni</li>
+      <li>L'utente può revocare il permesso di posizione in qualsiasi momento dalle impostazioni del dispositivo</li>
+    </ul>
+
+    <h2>4. Dati memorizzati localmente</h2>
+    <p>L'app memorizza sul dispositivo dell'utente esclusivamente:</p>
+    <ul>
+      <li><strong>Preferenza lingua</strong> — la lingua selezionata (es. italiano, inglese) viene salvata localmente tramite localStorage per ricordare la scelta nelle sessioni successive</li>
+      <li><strong>Cache mappa</strong> — le tile della mappa OpenStreetMap vengono cachate dal service worker per consentire la visualizzazione offline delle aree già visitate</li>
+      <li><strong>Dati archeologici</strong> — il database dei siti (dati_locali.json) è incluso nell'app e non richiede connessione internet</li>
+    </ul>
+    <p>Questi dati rimangono esclusivamente sul dispositivo e possono essere cancellati svuotando la cache dell'app o disinstallando l'applicazione.</p>
+
+    <h2>5. Servizi di terze parti</h2>
+    <p>L'app utilizza i seguenti servizi di terze parti:</p>
+    <ul>
+      <li>
+        <strong>OpenStreetMap</strong> — per le tile della mappa cartografica.
+        Le richieste di tile vengono effettuate ai server di OpenStreetMap quando si è online.
+        Si applicano le <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank">norme sulla privacy di OpenStreetMap Foundation</a>.
+      </li>
+      <li>
+        <strong>Google Maps</strong> — il link "Raggiungi con Google Maps" apre l'app Google Maps esterna.
+        Si applicano le <a href="https://policies.google.com/privacy" target="_blank">norme sulla privacy di Google</a>.
+        L'utente viene reindirizzato all'app Google Maps solo se clicca esplicitamente il link.
+      </li>
+    </ul>
+
+    <h2>6. Pubblicità (AdMob)</h2>
+    <p>
+      L'applicazione potrebbe mostrare annunci pubblicitari tramite Google AdMob.
+      AdMob potrebbe raccogliere dati anonimi sul dispositivo per mostrare annunci pertinenti.
+      Per maggiori informazioni consulta la
+      <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy di Google</a>.
+    </p>
+    <p>
+      Gli annunci sono conformi alle normative GDPR. Gli utenti nell'Unione Europea
+      vedranno annunci non personalizzati salvo consenso esplicito.
+    </p>
+
+    <h2>7. Diritti degli utenti (GDPR)</h2>
+    <p>
+      In conformità con il GDPR, gli utenti residenti nell'Unione Europea hanno i seguenti diritti:
+    </p>
+    <ul>
+      <li>Diritto di accesso ai propri dati personali</li>
+      <li>Diritto di rettifica di dati inesatti</li>
+      <li>Diritto alla cancellazione dei dati</li>
+      <li>Diritto alla portabilità dei dati</li>
+      <li>Diritto di opposizione al trattamento</li>
+    </ul>
+    <p>
+      Poiché l'app non raccoglie dati personali identificabili, questi diritti si applicano
+      principalmente ai dati eventualmente raccolti da Google AdMob.
+      Per esercitare tali diritti relativamente ad AdMob, contatta Google tramite
+      <a href="https://myaccount.google.com/data-and-privacy" target="_blank">myaccount.google.com</a>.
+    </p>
+
+    <h2>8. Minori</h2>
+    <p>
+      L'app è adatta a tutte le età ed è classificata come contenuto educativo/culturale.
+      Non raccoglie consapevolmente dati da minori di 13 anni.
+      Non è richiesta registrazione né inserimento di dati personali per utilizzare l'app.
+    </p>
+
+    <h2>9. Sicurezza dei dati</h2>
+    <p>
+      Poiché l'app non trasmette dati personali a server esterni, il rischio di violazione
+      dei dati è minimo. I dati memorizzati localmente sul dispositivo sono protetti
+      dalle misure di sicurezza del sistema operativo Android.
+    </p>
+
+    <h2>10. Modifiche alla Privacy Policy</h2>
+    <p>
+      Questa Privacy Policy potrebbe essere aggiornata periodicamente.
+      Le modifiche saranno pubblicate su questa pagina con la data di aggiornamento.
+      Si consiglia di consultare periodicamente questa pagina per eventuali aggiornamenti.
+    </p>
+
+    <h2>11. Contatti</h2>
+    <p>
+      Per domande o chiarimenti relativi a questa Privacy Policy, è possibile contattare
+      lo sviluppatore all'indirizzo:
+    </p>
+    <p>
+      <!-- SOSTITUISCI CON LA TUA EMAIL -->
+      <strong>Email:</strong> <a href="mailto:naish3xyz@gmail.com">naish3xyz@gmail.com</a>
+    </p>
+
+    <footer>
+      <p>© 2026 Sardegna Archeologica — Tutti i diritti riservati</p>
+      <p style="margin-top: 6px;">Dati archeologici: OpenStreetMap contributors (ODbL)</p>
+    </footer>
+
+  </div>
 </body>
 </html>
